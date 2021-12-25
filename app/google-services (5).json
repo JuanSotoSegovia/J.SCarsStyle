@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380313970115",
+    "project_id": "tucatalogojscarsstyle-a14ca",
+    "storage_bucket": "tucatalogojscarsstyle-a14ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380313970115:android:dd632178fab763c5c90976",
+        "android_client_info": {
+          "package_name": "com.example.jscarsstyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380313970115-hbve7k85lgufk70pa7blivodhndvq1op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVvCA2Z2CiKY9RK7U_zSlIt9HN0kxOuTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380313970115-hbve7k85lgufk70pa7blivodhndvq1op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Categorias.Exterior.Categoria.Cat_Exterior">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView34"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradiant">
+
+            <TextView
+                android:id="@+id/txt_nomCatGlobalExtPag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:text="Esperando carga de categoria..."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.483" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="28dp"
+                android:onClick="bttMenu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+                app:tint="@color/white"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView34">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView35"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro1"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro1"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace0"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro1"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro1"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/antenaaletatiburonblanca"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView36"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView35">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro2"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro2"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro2"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/antenaaletatiburonnegra"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView234"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView36">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro10">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro10"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro10"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="abrirExteriorPro10"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="abrirExteriorPro10"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="abrirExteriorPro10"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro10"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro10"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/brochegrande"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView43"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView36">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro3"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro3"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro3"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/brochemetaliconegro1"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView38"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView37">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro4">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro4"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro4"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro4"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/cintaremolqueazultunning"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView39"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView38">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro5">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro5"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro5"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro5"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/cintaremolquerojatunning"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView44"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView39">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro6">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro6"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro6"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro6"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro6"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ganchoremolquenegro"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView41"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView40">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro7">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro7"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro7"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro7"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro7"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ganchoremolquerojo"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView42"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView41">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro8">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro8"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro8"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro8"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/guardafangos"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView45"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView42">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant"
+                    android:onClick="abrirExteriorPro9">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirExteriorPro9"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_ExteriorPro9"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_nobreExtPro9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/espace8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_precioExtPro9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_ExteriorPro9"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirExteriorPro9"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/lipparachoque"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
